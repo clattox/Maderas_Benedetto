@@ -17,7 +17,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/maderasbenedetto.jpg"
+          src="/images/maderasbenedetto.webp"
           alt="Vista del aserradero Maderas Benedetto, Los Álamos, Biobío"
           fill
           className="object-cover object-center"

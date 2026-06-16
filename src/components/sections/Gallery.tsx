@@ -7,57 +7,57 @@ import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react'
 
 const galleryImages = [
   {
-    src: '/images/maderasbenedetto.jpg',
+    src: '/images/maderasbenedetto.webp',
     alt: 'Maderas Benedetto — vista general',
     caption: 'Maderas Benedetto',
   },
   {
-    src: '/images/maderas1.jpg',
+    src: '/images/maderas1.webp',
     alt: 'Aserradero Maderas Benedetto',
     caption: 'Aserradero',
   },
   {
-    src: '/images/maderas2.jpg',
+    src: '/images/maderas2.webp',
     alt: 'Madera procesada',
     caption: 'Proceso Productivo',
   },
   {
-    src: '/images/maderas3.jpg',
+    src: '/images/maderas3.webp',
     alt: 'Troncos y madera en patio',
     caption: 'Patio de Acopio',
   },
   {
-    src: '/images/maderas4.jpg',
+    src: '/images/maderas4.webp',
     alt: 'Madera dimensionada',
     caption: 'Madera Dimensionada',
   },
   {
-    src: '/images/maderas5.jpg',
+    src: '/images/maderas5.webp',
     alt: 'Producción de madera',
     caption: 'Producción',
   },
   {
-    src: '/images/maderas6.jpg',
+    src: '/images/maderas6.webp',
     alt: 'Maquinaria del aserradero',
     caption: 'Maquinaria',
   },
   {
-    src: '/images/maderas7.jpg',
+    src: '/images/maderas7.webp',
     alt: 'Carga y despacho de madera',
     caption: 'Despacho',
   },
   {
-    src: '/images/maderas8.jpg',
+    src: '/images/maderas8.webp',
     alt: 'Productos terminados',
     caption: 'Productos Terminados',
   },
   {
-    src: '/images/maderas9.jpg',
+    src: '/images/maderas9.webp',
     alt: 'Troncos de pino',
     caption: 'Troncos',
   },
   {
-    src: '/images/maderas10.jpg',
+    src: '/images/maderas10.webp',
     alt: 'Instalaciones del aserradero',
     caption: 'Instalaciones',
   },

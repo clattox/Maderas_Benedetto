@@ -380,7 +380,7 @@ function Hero() {
                 className: "absolute inset-0 z-0",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$maderas$2d$benedetto$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$maderas$2d$benedetto$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/images/maderasbenedetto.jpg",
+                        src: "/images/maderasbenedetto.webp",
                         alt: "Vista del aserradero Maderas Benedetto, Los Álamos, Biobío",
                         fill: true,
                         className: "object-cover object-center",
@@ -1035,7 +1035,7 @@ function About() {
                                     className: "relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$maderas$2d$benedetto$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$maderas$2d$benedetto$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/images/maderas1.jpg",
+                                            src: "/images/maderas1.webp",
                                             alt: "Aserradero Maderas Benedetto",
                                             fill: true,
                                             className: "object-cover",
@@ -1190,49 +1190,49 @@ const products = [
         name: 'Madera Dimensionada',
         description: 'Madera aserrada y clasificada con medidas estándar para construcción y obras civiles.',
         sizes: '1" × 2" / 1" × 4" / 2" × 4" / 2" × 6"',
-        image: '/images/maderas2.jpg',
+        image: '/images/maderas2.webp',
         alt: 'Madera dimensionada apilada'
     },
     {
         name: 'Tablas',
         description: 'Tablas de pino para revestimientos, entablados, cielorasos y múltiples usos.',
         sizes: '1" × 6" / 1" × 8" / 1" × 10" / 1" × 12"',
-        image: '/images/maderas3.jpg',
+        image: '/images/maderas3.webp',
         alt: 'Tablas de madera'
     },
     {
         name: 'Vigas',
         description: 'Vigas estructurales para techumbre, pisos y estructuras de alta resistencia.',
         sizes: '3" × 6" / 4" × 6" / 4" × 8" / 6" × 8"',
-        image: '/images/maderas4.jpg',
+        image: '/images/maderas4.webp',
         alt: 'Vigas de madera estructural'
     },
     {
         name: 'Cuartones',
         description: 'Piezas cuadradas para estructura liviana, cercos, pérgolas y proyectos diversos.',
         sizes: '2" × 2" / 3" × 3" / 4" × 4"',
-        image: '/images/maderas5.jpg',
+        image: '/images/maderas5.webp',
         alt: 'Cuartones de madera'
     },
     {
         name: 'Polines',
         description: 'Polines tratados para pisos industriales, bodegas, ferroviarios y estructuras pesadas.',
         sizes: '4" × 6" / 6" × 6" / 6" × 8" / según pedido',
-        image: '/images/maderas6.jpg',
+        image: '/images/maderas6.webp',
         alt: 'Polines de madera'
     },
     {
         name: 'Postes',
         description: 'Postes impregnados para cercos, viñedos, tendido eléctrico y construcción rural.',
         sizes: 'Largo 2,5 m / 3 m / 3,5 m / 4 m',
-        image: '/images/maderas7.jpg',
+        image: '/images/maderas7.webp',
         alt: 'Postes de madera para cerco'
     },
     {
         name: 'Madera a Medida',
         description: 'Corte personalizado según planos y especificaciones del proyecto del cliente.',
         sizes: 'Cualquier medida a pedido',
-        image: '/images/maderas10.jpg',
+        image: '/images/maderas10.webp',
         alt: 'Madera cortada a medida'
     }
 ];
@@ -1792,57 +1792,57 @@ var _s = __turbopack_context__.k.signature();
 ;
 const galleryImages = [
     {
-        src: '/images/maderasbenedetto.jpg',
+        src: '/images/maderasbenedetto.webp',
         alt: 'Maderas Benedetto — vista general',
         caption: 'Maderas Benedetto'
     },
     {
-        src: '/images/maderas1.jpg',
+        src: '/images/maderas1.webp',
         alt: 'Aserradero Maderas Benedetto',
         caption: 'Aserradero'
     },
     {
-        src: '/images/maderas2.jpg',
+        src: '/images/maderas2.webp',
         alt: 'Madera procesada',
         caption: 'Proceso Productivo'
     },
     {
-        src: '/images/maderas3.jpg',
+        src: '/images/maderas3.webp',
         alt: 'Troncos y madera en patio',
         caption: 'Patio de Acopio'
     },
     {
-        src: '/images/maderas4.jpg',
+        src: '/images/maderas4.webp',
         alt: 'Madera dimensionada',
         caption: 'Madera Dimensionada'
     },
     {
-        src: '/images/maderas5.jpg',
+        src: '/images/maderas5.webp',
         alt: 'Producción de madera',
         caption: 'Producción'
     },
     {
-        src: '/images/maderas6.jpg',
+        src: '/images/maderas6.webp',
         alt: 'Maquinaria del aserradero',
         caption: 'Maquinaria'
     },
     {
-        src: '/images/maderas7.jpg',
+        src: '/images/maderas7.webp',
         alt: 'Carga y despacho de madera',
         caption: 'Despacho'
     },
     {
-        src: '/images/maderas8.jpg',
+        src: '/images/maderas8.webp',
         alt: 'Productos terminados',
         caption: 'Productos Terminados'
     },
     {
-        src: '/images/maderas9.jpg',
+        src: '/images/maderas9.webp',
         alt: 'Troncos de pino',
         caption: 'Troncos'
     },
     {
-        src: '/images/maderas10.jpg',
+        src: '/images/maderas10.webp',
         alt: 'Instalaciones del aserradero',
         caption: 'Instalaciones'
     }

@@ -136,7 +136,7 @@ export default function About() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
               <Image
-                src="/images/maderas1.jpg"
+                src="/images/maderas1.webp"
                 alt="Aserradero Maderas Benedetto"
                 fill
                 className="object-cover"
