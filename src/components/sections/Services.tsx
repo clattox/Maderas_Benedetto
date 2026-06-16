@@ -3,11 +3,11 @@
 import { motion } from 'framer-motion'
 import {
   Scissors,
-  Ruler,
+  ScanLine,
+  PackageCheck,
   Truck,
-  Package,
-  MessageSquare,
-  Scale,
+  Warehouse,
+  BrainCircuit,
 } from 'lucide-react'
 
 const services = [
@@ -19,14 +19,14 @@ const services = [
     color: '#2E5E3B',
   },
   {
-    icon: Ruler,
+    icon: ScanLine,
     title: 'Dimensionado',
     description:
       'Procesamos la madera hasta alcanzar medidas precisas y acabados uniformes para uso estructural o decorativo.',
     color: '#7B4B24',
   },
   {
-    icon: Scale,
+    icon: PackageCheck,
     title: 'Carga de Camiones',
     description:
       'Cargamos eficientemente grandes volúmenes de madera para transporte seguro hacia tu destino.',
@@ -40,14 +40,14 @@ const services = [
     color: '#7B4B24',
   },
   {
-    icon: Package,
+    icon: Warehouse,
     title: 'Productos en Stock',
     description:
       'Mantenemos inventario permanente de los productos más demandados para entrega inmediata.',
     color: '#2E5E3B',
   },
   {
-    icon: MessageSquare,
+    icon: BrainCircuit,
     title: 'Asesoría Técnica',
     description:
       'Nuestro equipo orienta sobre el tipo y calidad de madera más adecuado para cada proyecto o uso.',

@@ -48,20 +48,6 @@ const products = [
     alt: 'Postes de madera para cerco',
   },
   {
-    name: 'Astillas',
-    description: 'Astillas de madera para uso industrial, energético y como subproducto forestal.',
-    sizes: 'A granel / Big Bag / según volumen',
-    image: '/images/maderas8.jpg',
-    alt: 'Astillas de madera',
-  },
-  {
-    name: 'Leña',
-    description: 'Leña seca de alta calidad para calefacción domiciliaria e industrial.',
-    sizes: 'Sacos / Estéreos / Metro cúbico',
-    image: '/images/maderas9.jpg',
-    alt: 'Leña apilada',
-  },
-  {
     name: 'Madera a Medida',
     description: 'Corte personalizado según planos y especificaciones del proyecto del cliente.',
     sizes: 'Cualquier medida a pedido',

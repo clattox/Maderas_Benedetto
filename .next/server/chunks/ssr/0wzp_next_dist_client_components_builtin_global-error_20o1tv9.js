@@ -1,0 +1,3 @@
+module.exports=[22515,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(2143);a.n(d("[project]/Documents/GitHub/maderas-benedetto/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},26570,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(2143);a.n(d("[project]/Documents/GitHub/maderas-benedetto/node_modules/next/dist/client/components/builtin/global-error.js"))},94209,a=>{"use strict";a.i(22515);var b=a.i(26570);a.n(b)},13764,a=>{a.n(a.i(94209))}];
+
+//# sourceMappingURL=0wzp_next_dist_client_components_builtin_global-error_20o1tv9.js.map
