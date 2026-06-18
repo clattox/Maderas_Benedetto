@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Award, Users, Truck, MapPin } from 'lucide-react'
+import { Award, Users, Truck, MapPin, TreePine, BadgeCheck, Handshake, Factory, Sprout } from 'lucide-react'
 import AnimatedCounter from '@/components/ui/AnimatedCounter'
 import Image from 'next/image'
 
@@ -38,29 +38,34 @@ const stats = [
 
 const highlights = [
   {
-    icon: '🌲',
+    icon: TreePine,
     title: 'Experiencia en el rubro',
     description: 'Décadas de trabajo en la industria forestal del sur de Chile nos avalan.',
+    color: '#2E5E3B',
   },
   {
-    icon: '✔️',
+    icon: BadgeCheck,
     title: 'Calidad garantizada',
     description: 'Madera seleccionada y procesada bajo estándares exigentes de calidad.',
+    color: '#7B4B24',
   },
   {
-    icon: '🤝',
+    icon: Handshake,
     title: 'Atención personalizada',
     description: 'Asesoramos a cada cliente según su proyecto y necesidades específicas.',
+    color: '#2E5E3B',
   },
   {
-    icon: '🏭',
+    icon: Factory,
     title: 'Producción local',
     description: 'Procesamos nuestra propia madera en el corazón de la Provincia de Arauco.',
+    color: '#7B4B24',
   },
   {
-    icon: '🌱',
+    icon: Sprout,
     title: 'Compromiso regional',
     description: 'Impulsamos el desarrollo económico y laboral de nuestra comunidad.',
+    color: '#2E5E3B',
   },
 ]
 
@@ -165,7 +170,12 @@ export default function About() {
                 variants={itemVariants}
                 className="flex gap-4 bg-white rounded-2xl p-5 shadow-sm border border-[#E8DDD0] hover:border-[#2E5E3B]/30 hover:shadow-md transition-all"
               >
-                <span className="text-2xl leading-none mt-0.5">{item.icon}</span>
+                <div
+                  className="w-11 h-11 rounded-xl flex items-center justify-center shrink-0"
+                  style={{ backgroundColor: `${item.color}15` }}
+                >
+                  <item.icon className="w-5 h-5" style={{ color: item.color }} />
+                </div>
                 <div>
                   <h3 className="font-display font-bold text-[#1E3F28] mb-1">{item.title}</h3>
                   <p className="text-gray-500 text-sm leading-relaxed">{item.description}</p>
